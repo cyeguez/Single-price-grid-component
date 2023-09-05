@@ -1,0 +1,110 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  width: 375px;
+  height: 870px;
+  padding: 72px 32px;
+  background-color: hsl(204, 43%, 93%);
+}
+main .card {
+  width: 310px;
+  height: 720px;
+  display: grid;
+  grid-template-rows: 268px repeat(2, 228px);
+}
+main .card__top {
+  background-color: white;
+  padding: 16px 32px 32px 32px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 1px 1px 10px hsl(218, 22%, 67%);
+}
+main .card__top__title {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+main .card__top__subtitle {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+main .card__top__text {
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(218, 22%, 67%);
+}
+main .card__center {
+  padding: 10px 32px;
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+}
+main .card__center__title {
+  font-weight: 700;
+}
+main .card__center__price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -1px;
+}
+main .card__center__price span {
+  font-weight: 300;
+  color: hsl(204, 43%, 93%);
+  opacity: 0.3;
+}
+main .card__center__text {
+  font-size: 14px;
+  color: hsl(204, 43%, 93%);
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+main .card__center__button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+}
+main .card__center__button:hover {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+main .card__down {
+  background: #4ABEBD;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 32px;
+  color: hsl(204, 43%, 93%);
+  box-shadow: 1px 1px 15px hsl(218, 22%, 67%);
+}
+main .card__down__text {
+  width: 70%;
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
